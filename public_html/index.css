@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2019.03.21., 18:24:33
+    Author     : szlad
+*/
+
+/* paper:  #f4f4f4
+   pale gold #c0b283
+    SILK:# dcdqc0
+   charcoal #373737
+    */
+    
+    h1,h2,h3,h4,h5{
+        font-family: 'Open Sans', sans-serif;
+    }
+    p,li, figcaption{
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #main{
+    background-color: #f4f4f4;
+    margin: 0.3rem;
+    border-radius: 1%;
+    text-align: center;
+   
+   
+    }
+    #title{
+        padding: 2rem;
+        vertical-align: middle;
+        padding-bottom: 0.5rem;
+    }
+    #img-div{
+        background-color: white;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-top: 1rem;
+        
+    }
+    #img-caption{
+        margin: 0.5rem;
+        padding: 0.5rem;
+        padding-bottom: 1rem;
+        
+    }
+    
+    
+    
+    #tribute-info{
+       padding-left: 25%;
+       padding-right:25%;
+      
+    }
+    li{
+        text-align: start;
+        padding: 0.5rem;
+    }
+    #footer{
+        padding-bottom: 1.5rem;
+    }
+    @media (max-width: 767.98px){
+        #image{
+            width: 100%;
+            display: block;
+                
+            height: auto;
+        }
+        
+        #tribute-info{
+       padding-left:3%;
+       padding-right:3%;
+       
+        
+    }
+    }
